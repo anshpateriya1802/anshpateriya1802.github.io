@@ -71,8 +71,10 @@ ul li:hover ul.dropdown{
 }
 
 .date1{
+    position: relative;
     margin-left:8%;
     margin-top: 13%;
+    z-index:100;
     
     
 }
@@ -80,6 +82,7 @@ ul li:hover ul.dropdown{
     font-size:50px;
     color: #212121;
     margin-bottom:20px ;
+    
 }
 span{
     color:orange;
@@ -105,6 +108,7 @@ span{
     position:absolute;
     bottom: 0;
     right: 100px;
+    z-index: 1;
 }
 .images img{
     height: 80%;
